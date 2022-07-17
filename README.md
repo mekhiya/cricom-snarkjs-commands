@@ -62,7 +62,7 @@ rm parameters.txt
 ### public.json contains the values of the public inputs and output.
 
 ### Verify the proof
- ``` snarkjs plonk verify verification_key.json public.json proof.json ``` 
+ ``` snarkjs groth16 verify verification_key.json public.json proof.json ``` 
 
 ### Turn the verifier into a smart contract
  ``` snarkjs zkey export solidityverifier circuit_final.zkey verifier.sol ``` 
