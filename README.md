@@ -19,7 +19,7 @@ rm parameters.txt
 #folder has circom.circom
 #folder has input.json
 
-circom circom.circom --r1cs --wasm --sym --c
+``` circom circom.circom --r1cs --wasm --sym --c ```
 
 ### above compile command, at root level creates circuit.r1cs circuit.sym 
 ### above compile command creates circuit_js (has circuit.wasm, generate_witness.js & other files)
