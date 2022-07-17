@@ -2,7 +2,7 @@
 
 ### commands for groth16 & js files.
 
-`
+``
 rm circuit.r1cs
 rm circuit.sym
 rm circuit_*
@@ -14,7 +14,7 @@ rm verifier.sol
 rm verification_key.json
 rm witness.wtns
 rm parameters.txt
-`
+``
 
 #folder has circom.circom
 #folder has input.json
