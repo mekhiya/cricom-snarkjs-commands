@@ -28,7 +28,7 @@ rm parameters.txt
  ``` cd circuit_js ``` 
 
 ### generate witness file at root level
- ``` node generate_witness.js circuit.wasm ../input.json ../witness.json ``` 
+ ``` node generate_witness.js circuit.wasm ../input.json ../witness.wtns ``` 
 
 ### Now we will start using snrakjs to generate & validate proof
 ### groth16 zk-snark requires to creates phase 1 & phase 2 trusted setup
